@@ -1,0 +1,51 @@
+/* This is the stylesheet code for the login and sign up pages since they have the same structure */
+body {
+font-family: Arial;
+background-color: white;
+margin: 0;
+text-align: center;
+}
+header {
+background-color: #26895C;
+color: white;
+padding: 20px 0;
+font-size: 32px;
+font-weight: bold;
+}
+h2 {text-align: center;}
+p {text-align: center;}
+/* These are the style rules for the forms to make it inside a box and organize it */
+form {
+width: 350px;
+margin: 0 auto 20px auto;
+padding: 20px;
+border: 1px solid #cccccc;
+box-sizing: border-box;
+}
+label {
+display: block;
+margin-bottom: 4px;
+font-weight: bold;
+text-align: left;
+}
+.textInput {
+width: 100%;
+padding: 7px;
+border: 1px solid #cccccc;
+box-sizing: border-box;
+}
+.submitButton {
+color: white;
+width: 100%;
+padding: 8px;
+border: 1px solid #26895C;
+background-color: #26895C;
+}
+.submitButton:hover {
+background-color: #1f6f4a;
+cursor: pointer;
+}
+.footerText {
+font-size: 12px;
+color: gray;
+}

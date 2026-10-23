@@ -1,0 +1,92 @@
+/* This is the stylesheet code for the "Search for Books" and "Borrow History" pages in the SEU E-Library system */
+body {
+font-family: Arial;
+background-color: white;
+margin: 0;
+}
+header {
+background-color: #283593;
+color: white;
+}
+#header-container {
+display: flex;
+justify-content: center;
+padding: 15px 30px;
+}
+#header-container h1 {
+font-size: 32px;
+font-weight: bold;
+margin: 0;
+}
+#logout-btn {
+position: absolute;
+right: 30px;
+background-color: white;
+color: #1e3a8a;
+font-weight: bold;
+padding: 8px 20px;
+border-radius: 5px;
+text-decoration: none;
+}
+#logout-btn:hover {
+background-color: #3b5ec6;
+color: white;
+}
+p {text-align: center;}
+hr {
+width: 100%;
+position: fixed;
+bottom: 35px;
+margin: 0;
+}
+#footerText {
+color: gray;
+font-size: 13px;
+position: fixed;
+bottom: 10px;
+width: 100%;
+margin: 0;
+}
+/* These are the style rules for the search form that contains the label, text box, and "Search" and "Borrow" buttons */
+#search-form {text-align: center;}
+#search-form label {font-weight: bold;}
+#searchInput {
+width: 300px;
+padding: 6px;
+}
+#searchButton {
+padding: 7px 20px;
+border: 1px solid #283593;
+background-color: #283593;
+color: white;
+font-weight: bold;
+}
+#searchButton:hover {
+background-color: #3b5ec6;
+color: white;
+cursor: pointer;
+}
+#booksTable {
+border-collapse: collapse;
+margin: 25px auto 0 auto;
+}
+#booksTable th,
+#booksTable td {
+border: 1px solid #cccccc;
+padding: 8px;
+text-align: left;
+}
+#booksTable th {
+background-color: #283593;
+color: white;
+}
+#borrowButton {
+display: inline-block;
+padding: 6px 16px;
+background-color: #283593;
+color: white;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+}
+#borrowButton:hover {background-color: #3b5ec6;}

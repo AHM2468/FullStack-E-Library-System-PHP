@@ -1,0 +1,90 @@
+/* This is the stylesheet code for the home page of the SEU E-Library system */
+body {
+font-family: Arial;
+background-color: white;
+margin: 0;
+}
+header {
+background-color: #283593;
+color: white;
+}
+.header-container {
+display: flex;
+/* This will make the title "Home Page" at the center of the bar */
+justify-content: center;
+padding: 15px 30px;
+}
+.header-container h1 {
+font-size: 32px;
+font-weight: bold;
+/* We made the margin 0 so we can match the size of the bar like the other pages */
+margin: 0;
+}
+#logout-btn {
+position: absolute;
+right: 30px;
+background-color: white;
+/* We chose this color becuase it is suitable for the button's background color and the title's bar */
+color: #1e3a8a;
+padding: 8px 20px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+}
+#logout-btn:hover {
+background-color: #3b5ec6;
+color: white;
+}
+h2 {text-align: center;}
+p {text-align: center;}
+hr {
+width: 100%;
+position: fixed;
+bottom: 35px;
+margin: 0;
+}
+ul {
+list-style-type: none;
+padding: 0;
+text-align: center;
+}
+ul li {
+/* This will show the options on the same line level and make space between them */
+display: inline-block;
+margin: 10px;
+}
+ul li a {
+background-color: #283593;
+color: white;
+padding: 10px 25px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+}
+ul li a:hover {background-color: #3b5ec6;}
+#footerText {
+color: gray;
+font-size: 13px;
+position: fixed;
+bottom: 10px;
+width: 100%;
+margin: 0;
+}
+#homeimage {
+display: block;
+margin: 30px auto;
+/* We made the image's width 600 so the web site displays it in a good size */
+width: 600px;
+border-radius: 10px;
+}
+/* This remaining style code is for the "Update Profile" page (for the update buttons) */
+.updateButton {
+padding: 7px 20px;
+border: none;
+background-color: #283593;
+color: white;
+font-weight: bold;
+border-radius: 5px;
+cursor: pointer;
+}
+.updateButton:hover {background-color: #3b5ec6;}

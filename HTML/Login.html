@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <title>Login Page</title>
+  <!--The reference to the external stylesheet that we created to organize the pages-->
+  <link rel = "stylesheet" type = "text/css" href = "../CSS/Style.css">
+</head>
+<body>
+  <header>SEU E-Library System</header>
+  <h2>Login to Your Account</h2>
+  <!--The required information from the user to be entered to complete the login using the post method-->
+  <form method = "post" action = "../PHP/login_action.php" onsubmit = "return validateLoginForm();">
+    <label>Email:</label>
+    <input type = "email" id = "email" class = "textInput" name = "Email"><br><br>
+
+    <label>Password:</label>
+    <input type = "password" id = "password" class = "textInput" name = "Password"><br><br>
+
+    <!--This is the login button to be clicked by the user to log in-->
+    <input type = "submit" class = "submitButton" value = "Log In">
+  </form>
+  <p>Don't have an account? <a href = "Registration.html">Sign Up</a></p>
+  <hr>
+  <footer>
+  <p class = "footerText">&copy; 2025 SEU E-Library System. All rights reserved.</p>
+  </footer>
+  <!--The external JavaScript file that is used in this HTML document to check the input validation-->
+  <script src = "../JS/validation.js"></script>
+</body>
+</html>

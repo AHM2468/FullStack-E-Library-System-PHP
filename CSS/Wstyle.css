@@ -1,0 +1,58 @@
+/* This is the stylesheet code for the welcome page of the SEU E-Library system */
+body {
+font-family: Arial;
+background-color: white;
+/* The margin will be 0 so the content fills the page completely */
+margin: 0;
+text-align: center;
+}
+/* We made the color of the header bar like our university's web site */
+header {
+background-color: #26895C;
+color: white;
+padding: 20px 0;
+font-size: 32px;
+font-weight: bold;
+}
+h2 {color: #26895C;}
+p {font-size: 18px;}
+/* This will make the bullet points of the list options disappear and make them at the center (below the description) */
+ul {
+list-style-type: none;
+padding: 0;
+}
+/* Here we increased the margin between the two options to make the buttons clearer and easier for users to select */
+ul li {margin: 30px;}
+/* To make the buttons clearer when the mouse cursor is on it */
+ul li a:hover {background-color: #1f714b;}
+a {
+background-color: #26895C;
+color: white;
+padding: 10px 25px;
+/* We made the text without decoration so the underline of the links disappear */
+text-decoration: none;
+font-weight: bold;
+border-radius: 10px;
+}
+hr {
+width: 100%;
+position: fixed;
+bottom: 35px;
+margin: 0;
+}
+#footerText {
+color: gray;
+font-size: 13px;
+position: fixed;
+bottom: 10px;
+width: 100%;
+text-align: center;
+margin: 0;
+}
+.image-container {
+display: flex;
+justify-content: space-between;
+}
+.sideImage {width: 300px;}
+.left {margin-left: 20px;}
+.right {margin-right: 20px;}
